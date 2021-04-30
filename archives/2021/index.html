@@ -11,7 +11,8 @@
         background-color: white;
         width: 70%;
         margin: auto;
-        margin-top: 61px;
+        margin-top: 100px;
+        margin-bottom: 50px;
       }
       h1 {
         color: cadetblue;
@@ -22,14 +23,19 @@
   <body>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style type="text/css">
-    #header {
+    #header-box {
         width: 70%;
         position: fixed;
-        top: 10px;
+        top: 0px;
         left: auto;
         height: auto;
-        padding: 10px;
         margin: 0px;
+        padding-bottom: 40px;
+        background-color: white;
+    }
+    #header {
+        margin-top: 10px;
+        padding: 10px;
         background-color: rgb(255, 250, 230);
     }
     #name {
@@ -40,7 +46,7 @@
     }
     #links {
         position: absolute;
-        top: 22px;
+        top: 32px;
         right: 40px;
         width: auto;
     }
@@ -54,49 +60,60 @@
         text-decoration: none;
     }
 </style>
-<div id="header">
-    <p id="name">Winter Cyan</p>
-    <div id="links">
-        <a class="link" target="_blank" rel="noopener" href="http://localhost:4000">HOME</a>
-        <a class="link">ARTICLE</a>
-        <a class="link">ABOUT</a>
+<div id="header-box">
+    <div id="header">
+        <p id="name">Winter Cyan</p>
+        <div id="links">
+            <a class="link" target="_blank" rel="noopener" href="http://localhost:4000">HOME</a>
+            <a class="link">ARTICLE</a>
+            <a class="link">ABOUT</a>
+        </div>
     </div>
 </div>
 <br>
-    <h1>This is a index file.</h1>
-
-<li><a href="2021/04/28/hello-world/">Hello World</a></li>
-
-<li><a href="2021/04/28/assetdemo/">Assetdemo</a></li>
-
-<li><a href="2021/04/28/article-blog/">Article Blog</a></li>
-
-<br>
-
-<br>
-
+    <!-- <h1>This is a index file.</h1> -->
 
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style type="text/css">
-    p.article_title {
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
         font-family: "EB Garamond", serif;
         font-size: 36px;
-        color: black;
         text-decoration: none;
         margin: 0px;
     }
-    p.article_title:visited {
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
         text-decoration: none;
     }
     .article_date {
         font-family: "Montserrat", sans-serif;
+        font-size: 20px;
         margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
     }
 </style>
 <div class="article_overview">
     <p class="article_title">
-        <a href="2021/04/28/hello-world/">Hello World</a>
+        <a class=article_link href="2021/04/28/hello-world/">Hello World</a>
     </p>
     <p class="article_date">
         2021 04 28
@@ -109,24 +126,44 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style type="text/css">
-    p.article_title {
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
         font-family: "EB Garamond", serif;
         font-size: 36px;
-        color: black;
         text-decoration: none;
         margin: 0px;
     }
-    p.article_title:visited {
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
         text-decoration: none;
     }
     .article_date {
         font-family: "Montserrat", sans-serif;
+        font-size: 20px;
         margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
     }
 </style>
 <div class="article_overview">
     <p class="article_title">
-        <a href="2021/04/28/assetdemo/">Assetdemo</a>
+        <a class=article_link href="2021/04/28/assetdemo/">Assetdemo</a>
     </p>
     <p class="article_date">
         2021 04 28
@@ -139,24 +176,497 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style type="text/css">
-    p.article_title {
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
         font-family: "EB Garamond", serif;
         font-size: 36px;
-        color: black;
         text-decoration: none;
         margin: 0px;
     }
-    p.article_title:visited {
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
         text-decoration: none;
     }
     .article_date {
         font-family: "Montserrat", sans-serif;
+        font-size: 20px;
         margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
     }
 </style>
 <div class="article_overview">
     <p class="article_title">
-        <a href="2021/04/28/article-blog/">Article Blog</a>
+        <a class=article_link href="2021/04/28/article-blog/">Article Blog</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/hello-world/">Hello World</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/assetdemo/">Assetdemo</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/article-blog/">Article Blog</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/hello-world/">Hello World</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/assetdemo/">Assetdemo</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/article-blog/">Article Blog</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/hello-world/">Hello World</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/assetdemo/">Assetdemo</a>
+    </p>
+    <p class="article_date">
+        2021 04 28
+    </p>
+    <p class="article_descr">
+        descr: 
+    </p>
+</div> 
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    .article_overview {
+        margin-left: 10px;
+    }
+    .article_title {
+        font-family: "EB Garamond", serif;
+        font-size: 36px;
+        text-decoration: none;
+        margin: 0px;
+    }
+    .article_link {
+        color: black;
+        text-decoration: none;
+    }
+    .article_link:hover {
+        color: lightslategray;
+    }
+    .article_link:visited {
+        text-decoration: none;
+    }
+    .article_date {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .article_descr {
+        font-family: Georgia;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 120px;
+        position: relative;
+        bottom: 24px;
+    }
+</style>
+<div class="article_overview">
+    <p class="article_title">
+        <a class=article_link href="2021/04/28/article-blog/">Article Blog</a>
     </p>
     <p class="article_date">
         2021 04 28
@@ -172,9 +682,11 @@
         position: fixed;
         color: gray;
         left:0; bottom: 0;
-        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width: 100%;
         text-align: center;
+        background-color: white;
     }
 </style>
 <footer id="footer">
