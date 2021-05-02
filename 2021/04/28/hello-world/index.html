@@ -18,8 +18,7 @@
 
   <meta name="generator" content="Hexo 5.4.0"></head>
   <body>
-    
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style type="text/css">
     #header-box {
         width: 70%;
@@ -70,12 +69,13 @@
     </div>
 </div>
 <br>
-    
     <style type="text/css">
     img {
+        align-items: center;
         max-width: 1080px;
     }
     h1 {
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         margin-top: 0px;
         margin-bottom: 5px;
@@ -87,15 +87,70 @@
         margin: 0px;
         margin-top: 5px;
     }
-    p {
+    .md {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 24px;
+    }
+    .md p {
+        font-size: 20px;
     }
 </style>
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style type="text/css">
+    #header-box {
+        width: 70%;
+        position: fixed;
+        top: 0px;
+        left: auto;
+        height: auto;
+        margin: 0px;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+    #header {
+        margin-top: 10px;
+        padding: 20px;
+        background-color: rgb(255, 250, 230);
+    }
+    #name {
+        font-family: Georgia;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0px;
+    }
+    #links {
+        position: absolute;
+        top: 38px;
+        right: 40px;
+        width: auto;
+    }
+    a.link {
+        padding-left: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        color: steelblue;
+        text-decoration: none;
+    }
+    a.link:visited {
+        text-decoration: none;
+    }
+</style>
+<div id="header-box">
+    <div id="header">
+        <p id="name">Winter Cyan</p>
+        <div id="links">
+            <a class="link" target="_blank" rel="noopener" href="http://localhost:4000">HOME</a>
+            <a class="link">ARTICLE</a>
+            <a class="link">ABOUT</a>
+        </div>
+    </div>
+</div>
+<br> 
 <h1>Hello World</h1>
 <p class="article_date">2021 04 28</p>
-<p><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<hr>
+<div class="md">
+    <p><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -109,9 +164,9 @@
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 </p>
+</div>
 <hr>
-    
-      <style type="text/css">
+    <style type="text/css">
     #footer {
         position: fixed;
         color: gray;
@@ -126,6 +181,5 @@
 <footer id="footer">
     <a style="text-decoration: none" target="_blank" rel="noopener" href="https://github.com/WinterCyan">Github</a> | Beihang University | wintercyan98@gmail.com
 </footer>
-    
   </body>
 </html>
