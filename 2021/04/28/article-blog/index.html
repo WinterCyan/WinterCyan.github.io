@@ -67,14 +67,16 @@
         </div>
     </div>
 </div>
-    <style type="text/css">
+    <meta http-equiv="Content-Type" content="text/html;charset=gb2321"/>
+<style type="text/css">
     img {
         max-width: 1080px;
+        max-height: 1080p;
         margin-left: auto;
         margin-right: auto;
     }
     h1 {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', 'SongTi', Times, serif;
         text-align: center;
         padding: auto;
         margin: auto;
@@ -89,14 +91,13 @@
     .article_date {
         text-align: center;
         font-family: "Montserrat", sans-serif;
-        font-size: 16px;
         margin: 0px;
         margin-top: 5px;
     }
     .md {
         font-family: 'Times New Roman', Times, serif;
         background-color: white;
-        padding: 30px;
+        padding: 40px;
         padding-top: 1px;
     }
     .md p {
@@ -168,6 +169,72 @@
     </div>
     <div class="md">
         <p>The content of post <em>article-blog</em>.</p>
+<h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h2 id="This-is-header2"><a href="#This-is-header2" class="headerlink" title="This is header2"></a>This is header2</h2><h3 id="This-is-header3"><a href="#This-is-header3" class="headerlink" title="This is header3"></a>This is header3</h3><p>‘#’ for headers.</p>
+<h1 id="Block-quotes"><a href="#Block-quotes" class="headerlink" title="Block-quotes"></a>Block-quotes</h1><blockquote>
+<p>This is a block-quote</p>
+</blockquote>
+<p>‘&gt;’ for quotes.</p>
+<h1 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h1><ul>
+<li>unordered list item 1</li>
+<li>unordered list item 2</li>
+</ul>
+<ol>
+<li>ordered list item 1</li>
+<li>ordered list item 2</li>
+</ol>
+<p>unordered: ‘*’, ordered: 1,2,3…</p>
+<h1 id="TaskList"><a href="#TaskList" class="headerlink" title="TaskList"></a>TaskList</h1><ul>
+<li><input disabled="" type="checkbox"> TaskList item</li>
+</ul>
+<p>“- space [ space ] space” for TaskList.</p>
+<h1 id="Code-Block"><a href="#Code-Block" class="headerlink" title="Code Block"></a>Code Block</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># This is a python code block</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span> () :</span></span><br><span class="line">	<span class="keyword">return</span></span><br></pre></td></tr></table></figure>
+
+<p>use three ‘`’ for code block.</p>
+<h1 id="MathBlock"><a href="#MathBlock" class="headerlink" title="MathBlock"></a>MathBlock</h1><p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>$$</p>
+<p>use two ‘$’ for math block (<em>LaTeX</em>).</p>
+<h1 id="Tables"><a href="#Tables" class="headerlink" title="Tables"></a>Tables</h1><table>
+<thead>
+<tr>
+<th align="left">header 1</th>
+<th align="center">header 2</th>
+<th align="right">header 3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">cell 1</td>
+<td align="center">cell 2</td>
+<td align="right">cell 3</td>
+</tr>
+<tr>
+<td align="left">cell 4</td>
+<td align="center">cell 5</td>
+<td align="right">cell 6</td>
+</tr>
+</tbody></table>
+<p>use ‘|something|something|’ for tables.</p>
+<h1 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h1><p>Here is a footnote[^1].</p>
+<p>[^1]: Here is the footnote’s ref.</p>
+<p>use ‘^something’ for footnotes.</p>
+<h1 id="Horizontal-Rules"><a href="#Horizontal-Rules" class="headerlink" title="Horizontal Rules"></a>Horizontal Rules</h1><hr>
+<p>use ‘—‘ or ‘***’ for horizontal rules.</p>
+<h1 id="YAML-Front-Matter"><a href="#YAML-Front-Matter" class="headerlink" title="YAML Front Matter"></a>YAML Front Matter</h1><p>‘—‘ at the top of md file, create “front matter” content.</p>
+<h1 id="TOC"><a href="#TOC" class="headerlink" title="TOC"></a>TOC</h1><p>[TOC]</p>
+<p>use “TOC” for creating a <em>table of contents</em>.</p>
+<h1 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h1><p>This is <a href="http://wintercyan.github.io/" title="Github">an example</a> inline link.</p>
+<p><a href="http://wintercyan.github.io/">This link</a> has no title attribute.</p>
+<p>use “[someting]” then “(link)” for links.</p>
+<h1 id="URLs"><a href="#URLs" class="headerlink" title="URLs"></a>URLs</h1><p>the URL of github: <a href="https://wintercyan.github.io/">https://wintercyan.github.io</a></p>
+<p>use “&lt;&gt;” for URLs.</p>
+<h1 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h1><p><img src="WHU-LUOJIA.jpg" title="WHU Luojia Mountain"></p>
+<p><img src="WHU.jpg"></p>
+<h1 id="Emphasis-Strong-Code-Strikethrough-Underlines"><a href="#Emphasis-Strong-Code-Strikethrough-Underlines" class="headerlink" title="Emphasis, Strong, Code, Strikethrough, Underlines"></a>Emphasis, Strong, Code, Strikethrough, Underlines</h1><p>“*” for emphasis: <em>some words</em></p>
+<p>double “*” for strong: <strong>some important words</strong></p>
+<p>single <em>code-symbol</em> for inline code: use <code>print()</code> function.</p>
+<p>double ~ for strikethrough: <del>deprecated</del></p>
+<p>use html for underline: <u>this one</u></p>
+<h1 id="Emoji"><a href="#Emoji" class="headerlink" title="Emoji"></a>Emoji</h1><p>:smile_cat:</p>
+<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p><span style="color:red">This is red.</span></p>
+<p>use html tags as usual for HTML.</p>
 
     </div>
 </body>
