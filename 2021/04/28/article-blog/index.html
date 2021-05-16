@@ -3,7 +3,7 @@
   <head>
     <link rel="icon" href="../source/_images/icon.png">
     
-      <title>Article Blog </title>
+      <title>Article Blog	博客文章 Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ </title>
     
     <style type="text/css">
       body {
@@ -68,16 +68,20 @@
     </div>
 </div>
     <meta http-equiv="Content-Type" content="text/html;charset=gb2321"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style type="text/css">
     img {
         max-width: 1080px;
-        max-height: 1080p;
-        margin-left: auto;
-        margin-right: auto;
+        max-height: 540px;
+        margin: auto;
     }
-    h1 {
-        font-family: 'Times New Roman', 'SongTi', Times, serif;
+    .article_title {
+        /* font-family: 'Times New Roman', 'SongTi', Times, serif; */
+        font-family: "Vollkorn","SimSun",Palatino,Times;
         text-align: center;
+        font-size: 38px;
         padding: auto;
         margin: auto;
         padding-top: 10px;
@@ -95,13 +99,18 @@
         margin-top: 5px;
     }
     .md {
-        font-family: 'Times New Roman', Times, serif;
+        /* font-family: "Vollkorn", Palatino, Times; */
+        font-family: "Vollkorn","SimSun",Palatino,Times;
+        /* font-family: 'Times New Roman', Times, serif; */
         background-color: white;
         padding: 40px;
         padding-top: 1px;
     }
     .md p {
         font-size: 20px;
+    }
+    .md h1,h2,h3{
+        font-family: "Vollkorn","SimHei",Palatino,Times;
     }
     hr {
         width: 80%;
@@ -162,14 +171,14 @@
     <div id="before-md">
         <br>
         <hr style="background-color: black; height: 4px; border: none; margin-top: 20px;">
-        <h1>Article Blog</h1>
+        <h1 class=article_title>Article Blog	博客文章 Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ</h1>
         <p class="article_date">2021 04 28</p>
         <hr style="background-color: black; height: 2px; border: none;">
         <br>
     </div>
     <div class="md">
         <p>The content of post <em>article-blog</em>.</p>
-<h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h2 id="This-is-header2"><a href="#This-is-header2" class="headerlink" title="This is header2"></a>This is header2</h2><h3 id="This-is-header3"><a href="#This-is-header3" class="headerlink" title="This is header3"></a>This is header3</h3><p>‘#’ for headers.</p>
+<h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h1 id="This-is-Header1"><a href="#This-is-Header1" class="headerlink" title="This is Header1"></a>This is Header1</h1><h2 id="This-is-header2"><a href="#This-is-header2" class="headerlink" title="This is header2"></a>This is header2</h2><h3 id="This-is-header3"><a href="#This-is-header3" class="headerlink" title="This is header3"></a>This is header3</h3><p>‘#’ for headers.</p>
 <h1 id="Block-quotes"><a href="#Block-quotes" class="headerlink" title="Block-quotes"></a>Block-quotes</h1><blockquote>
 <p>This is a block-quote</p>
 </blockquote>
@@ -235,7 +244,18 @@
 <h1 id="Emoji"><a href="#Emoji" class="headerlink" title="Emoji"></a>Emoji</h1><p>:smile_cat:</p>
 <h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p><span style="color:red">This is red.</span></p>
 <p>use html tags as usual for HTML.</p>
+<h1 id="Chinese"><a href="#Chinese" class="headerlink" title="Chinese"></a>Chinese</h1><p>这是一行中文。</p>
+<h1 id="Equation"><a href="#Equation" class="headerlink" title="Equation"></a>Equation</h1><p>
+  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+</p>
 
+<p>include</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">id</span>=<span class="string">&quot;MathJax-script&quot;</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>in <em>header tag</em> and use <strong>TeX</strong> directly for equations.</p>
+<h1 id="Symbols"><a href="#Symbols" class="headerlink" title="Symbols"></a>Symbols</h1><p>→∑∫∮⎡ℷ𝝀𝝇𝜻𝝅𝝆𝝒¿</p>
+<h1 id="中文标题"><a href="#中文标题" class="headerlink" title="中文标题"></a>中文标题</h1><h2 id="中文标题-1"><a href="#中文标题-1" class="headerlink" title="中文标题"></a>中文标题</h2><h3 id="中文标题-2"><a href="#中文标题-2" class="headerlink" title="中文标题"></a>中文标题</h3>
     </div>
 </body>
     <style type="text/css">
